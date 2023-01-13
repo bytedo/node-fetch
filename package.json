@@ -1,10 +1,12 @@
 {
+  "type": "module",
   "name": "@bytedo/node-fetch",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "node-fetch的增强版, 增加注入及数据处理",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node build.js dev",
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
     "fetch"
   ],
   "author": "",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  },
   "license": "MIT"
 }
